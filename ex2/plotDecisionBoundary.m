@@ -42,6 +42,9 @@ else
     % Plot z = 0
     % Notice you need to specify the range [0, 0]
     contour(u, v, z, [0, 0], 'LineWidth', 2)
+    % Do hypothesis là hàm theo 2 bi?n, do ?ó nó ph?i v? trong không
+    % gian 3 chi?u, z = h(x1, x2), decision boundary s? là contour line
+    % c?a ?? th? t?i z = 0, ngh?a là h(x1, x2) = 0
 end
 hold off
 
