@@ -33,6 +33,10 @@ num_labels = 10;          % 10 labels, from 1 to 10
 % Load Training Data
 fprintf('Loading and Visualizing Data ...\n')
 
+% In this code, X is not a training set, it's actually a test set
+% Because Theta1 and Theta2 were trained and given before. So let think
+% that we're skipping the "Training" step and going straight to "Predict" step
+% with a given Theta
 load('ex3data1.mat');
 m = size(X, 1);
 
